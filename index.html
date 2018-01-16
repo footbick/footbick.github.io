@@ -24,10 +24,11 @@
     <![endif]-->
   </head>
   <body>
-    <div class="main">
+    <div class="main parallax-window" data-parallax="scroll" data-speed="0.4" data-image-src="img/main_bg.jpg">
       <div class="main-overlay"></div>
       <div class="wrapper">
         <div class="main-header">
+          <div class="photo"></div>
           <h1>Михаил Янев</h1>
           <div class="main-line"></div>
           <p>Верстка на HTML и CSS <br> Разработка сайтов под ключ</p>
@@ -66,13 +67,13 @@
           <div class="col-md-6">
             <strong>Подпишитесь</strong>
             <div class="social-links">
-              <a href="#"><i class="icon-vk"></i></a>
-              <a href="#"><i class="icon-instagram"></i></a>
-              <a href="#"><i class="icon-twitter"></i></a>
+              <a href="https://vk.com"><i class="icon-vk"></i></a>
+              <a href="https://instagram.com"><i class="icon-instagram"></i></a>
+              <a href="https://twitter.com"><i class="icon-twitter"></i></a>
             </div>
           </div>
           <div class="col-md-3"><strong>Напишите мне</strong>
-            <a href="#" class="offer-btn">Заказать сайт</a>
+            <a href="https://vk.me/footbickfifa" class="offer-btn">Заказать сайт</a>
           </div>
         </div>
       </div>
@@ -156,6 +157,7 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/parallax.min.js"></script>
     <script>
       $(function() {
         var link = $('a[data-toggle="modal"]');

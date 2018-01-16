@@ -6,6 +6,13 @@ html{
 	font-size: 10px;
 }
 
+a:active,
+a:visited,
+a:focus{
+	outline:  none;
+	text-decoration: none;
+}
+
 .wrapper {
 	display: table-cell; vertical-align: middle;
 }
@@ -15,7 +22,6 @@ html{
 	display: table;
 	width: 100%;
 	text-align: center;
-	background: #000 url(../img/main_bg.jpg) center center no-repeat;
 	color: #fff;
 	height: 100vh;
 }
@@ -31,6 +37,14 @@ html{
 .main-header{
 	position: relative;
 	z-index: 2;
+}
+
+.photo{
+	width: 16rem;
+	height: 16rem;
+	border-radius: 50%;
+	background: #333 url(../img/portfolio/photo.jpg) 40% 35% no-repeat;
+	margin: 0 auto;
 }
 
 .main h1 {
@@ -71,6 +85,10 @@ html{
 .main-down:hover{
 	color: #fff;
 	border-color: #fff;
+}
+
+.main-down:focus{
+	color: #fff;
 }
 
 /* Секция Портфолио*/
@@ -160,8 +178,7 @@ html{
 .offer-btn:hover{
 	text-decoration: none;
 	background-color: #fff;
-	color: #646464;
-}
+	color: #646464;}
 
 .modal img {
 	width: 100%;
