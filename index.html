@@ -13,11 +13,13 @@
     <meta property="article:author" content="Михаил Янев">
     <title>Михаил Янев - Портфолио</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/fontello-embedded.css">
     <link rel="stylesheet" href="css/fontello.css">
     <link href="css/style.css" rel="stylesheet">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="https://png.icons8.com/ios/50/000000/anonymous-mask-filled.png">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -31,54 +33,88 @@
           <div class="photo"></div>
           <h1>Михаил Янев</h1>
           <div class="main-line"></div>
-          <p>Верстка на HTML и CSS <br> Разработка сайтов под ключ</p>
+          <p>Web дизайн и разработка сайтов <br> Полиграфический дизайн</p>
         </div>
       </div>
-      <a class="main-down slowly" href="#portfolio"><i class="icon-down"></i></a>
+      <a class="main-down slowly" href="#modal"><i class="icon-down"></i></a>
     </div>
 
+
+    <!-- Modal -->
+
+  <main class="cd-main-content" id="modal">
+    <img src="img/modal.jpg" alt="collaj"> 
+    <div class="circle"></div>       
+    <h1><a href="#0" class="cd-btn cd-modal-trigger">Немного обо мне... <br> <i class="fa fa-mouse-pointer" aria-hidden="true"></i></a></h1>
+    <a class="down slowly" href="#portfolio"><i class="icon-down"></i></a>
+  </main> <!-- .cd-main-content -->
+
+<div class="cd-modal">
+  <div class="modal-content">
+    <h1>Немного обо мне...</h1>
+    <img src="img/photo.jpg" alt="photo"> 
+    <p>
+      Мой путь как дизайнер начинался в далёком 2010 году, когда я решил кардинально поменять свою судьбу! Не буду вдаваться в подробности кем и как я работал до этого, но всё было довольно сложно! Итак в 2010 году я поступил на образовательные курсы по дизайну! По истечению 9 месяцев, закончив курсы с отличием (внизу приложу диплом), я начал свою трудовую деятельность в маленькой конторе (не помню даже названия), которая занималась в основном дизайном заправок и придорожных кафе, меня приняли как ученика, да и зарплата была подобающая! Поэтому я там долго не задержался. Через три месяца я устроился в рекламное агенство "Ed-color", занимающаяся полным циклом полиграфической и широкоформатной рекламной продукцией! И вот именно в этой компании я получил огромный опыт, чем я очень благодарен руководству этой компании! Но по истечению 3-х лет, надо было двигаться дальше! Покинув родную Молдавию, я переехал в Россию, а именно в Москву...Где устроился в международную компанию "Mailboxes etc". Здесь я так же в большей степени я занимался полиграфическим дизайном! И так же начал погружаться в мир Web дизайна! Через три с лишним года, по семейным обстаятельствам я уже с женой переехал обратно на родину, в Молдавию! Где решил заняться фрилансом! Ну и заодно изучал вёрстку! Здесь же в Молдавии в 2017 прошёл курсы по вёрстке! <br>
+       В настоящее время я - фрилансер,  занимаюсь web дизайном, разработкой сайтов и полиграфический дизайном!
+       <img src="img/diplom.jpg" alt="photo"> 
+    </p>
+
+
+    
+  </div> <!-- .modal-content -->
+
+  <a href="#0" class="modal-close">Close</a>
+</div> <!-- .cd-modal -->
+
+<div class="cd-transition-layer"> 
+  <div class="bg-layer"></div>
+</div> <!-- .cd-transition-layer -->
+
+<!-- Портфолио -->
     <div class="portfolio" id="portfolio">
       <div class="container">
         <h2 class="section-header">Портфолио</h2>
         <div class="row">
+          
           <div class="col-md-4">
-            <div class="portfolio-block"><img src="img/portfolio/1.jpg" alt="Работа №1">
-              <a data-toggle="modal" href="#work-1">Смотреть работу</a></div>
+            <div class="portfolio-block"><a data-toggle="modal" href="#work-1"><div><img src="img/portfolio/9.1.jpg" alt="Работа №1"></div>
+            <p>Смотреть работу</p></a></div>
           </div>
+          
           <div class="col-md-4">
-            <div class="portfolio-block"><img src="img/portfolio/2.jpg" alt="Работа №2">
-              <a data-toggle="modal" href="#work-2">Смотреть работу</a></div>
+            <div class="portfolio-block"><a data-toggle="modal" href="#work-2"><div><img src="img/portfolio/10.1.jpg" alt="Работа №2"></div>
+            <p>Смотреть работу</p></a></div>
           </div>
+          
           <div class="col-md-4">
-            <div class="portfolio-block"><img src="img/portfolio/3.jpg" alt="Работа №3">
-              <a data-toggle="modal" href="#work-3">Смотреть работу</a></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <strong>Михаил Янев</strong>
-            <p>Разработка сайтов под ключ</p>
-          </div>
-          <div class="col-md-6">
-            <strong>Подпишитесь</strong>
-            <div class="social-links">
-              <a href="https://vk.com"><i class="icon-vk"></i></a>
-              <a href="https://instagram.com"><i class="icon-instagram"></i></a>
-              <a href="https://twitter.com"><i class="icon-twitter"></i></a>
+            <div class="portfolio-block"><a data-toggle="modal" href="#work-3"><div><img src="img/portfolio/11.1.jpg" alt="Работа №3"></div>
+            <p>Смотреть работу</p></a>
             </div>
           </div>
-          <div class="col-md-3"><strong>Напишите мне</strong>
-            <a href="https://vk.me/footbickfifa" class="offer-btn">Заказать сайт</a>
+
+          <div class="col-md-4">
+            <div class="portfolio-block"><a data-toggle="modal" href="#work-4"><div><img src="img/portfolio/viz_4.jpg" alt="Работа №1"></div>
+            <p>Смотреть работу</p></a></div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="portfolio-block"><a data-toggle="modal" href="#work-5"><div><img src="img/portfolio/flaer5.jpg" alt="Работа №2"></div>
+            <p>Смотреть работу</p></a></div>
+          </div>
+          
+          <div class="col-md-4">
+            <div class="portfolio-block"><a data-toggle="modal" href="#work-6"><div><img src="img/portfolio/viz_web.jpg" alt="Работа №3"></div>
+            <p>Смотреть работу</p></a>
+            </div>
+          </div>
+          
+
           </div>
         </div>
       </div>
     </div>
 
+   
     <!-- Всплывающие окна -->
       <div class="modal fade" id="work-1" role="dialog">
         <div class="modal-dialog" role="document">
@@ -86,78 +122,221 @@
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Работа №1</h4>
+              <h4 class="modal-title">Сайт для компании "Bonvis"</h4>
             </div>
             <div class="modal-body">
               <div class="row">
-                <div class="col-md-5">
-                  <img src="img/portfolio/1.jpg" alt="Первая работа">
+                <div class="col-md-4 foto">
+                  <img src="img/portfolio/9.jpg" alt="Первая работа">
                 </div>
-                <div class="col-md-7">
-                  <h4>Сайт для ресторана</h4>
-                  <p>Описание сайта</p>
-                  <a href="https://vk.me/footbickfifa" class="modal-btn">Заказать такой сайт</a>
+                <div class="col-md-4 foto_1">
+                  <img src="img/portfolio/9.jpg" alt="Первая работа">                  
                 </div>
+                <div class="col-md-4 foto_2">
+                  <img src="img/portfolio/9.jpg" alt="Первая работа">                  
+                </div>
+                </div>
+                <div class="center-block col-md-12">
+                <h3>Описание сайта : </h3>
+                <p>Сайт для компании "Bonvis", которая занимается торговлей кофе, привезённое из плантаций Африки!</p>
+                </div>
+                <div class="center-block col-md-12">
+                <a href="https://e.mail.ru/compose/?1516619631030" class="modal-btn">Заказать такой сайт</a>               
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Всплывающие окна 2-->
+     <!-- Всплывающие окна 2-->
       <div class="modal fade" id="work-2" role="dialog">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Работа №2</h4>
+              <h4 class="modal-title">Сайт для кондитерской фабрики "Продвагон"</h4>
             </div>
             <div class="modal-body">
               <div class="row">
-                <div class="col-md-5">
-                  <img src="img/portfolio/2.jpg" alt="Вторая работа">
+                <div class="col-md-4 foto">
+                  <img src="img/portfolio/10.jpg" alt="Первая работа">
                 </div>
-                <div class="col-md-7">
-                  <h4>Сайт Портфолио</h4>
-                  <p>Описание сайта</p>
-                  <a href="https://vk.me/footbickfifa" class="modal-btn">Заказать такой сайт</a>
+                <div class="col-md-4 foto_1">
+                  <img src="img/portfolio/10.jpg" alt="Первая работа">                  
                 </div>
+                <div class="col-md-4 foto_2">
+                  <img src="img/portfolio/10.jpg" alt="Первая работа">                  
+                </div>
+                </div>
+                <div class="center-block col-md-12">
+                <h3>Описание сайта : </h3>
+                <p>Сайт для кондитерской фабрики "Продвагон"</p>
+                </div>
+                <div class="center-block col-md-12">
+                <a href="https://e.mail.ru/compose/?1516619631030" class="modal-btn">Заказать такой сайт</a>               
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <!-- Всплывающие окна 3-->
+      <!-- Всплывающие окна 3 -->
       <div class="modal fade" id="work-3" role="dialog">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span></button>
-              <h4 class="modal-title">Работа №3</h4>
+              <h4 class="modal-title">Cайт для школы красоты "Beauty School"</h4>
             </div>
             <div class="modal-body">
               <div class="row">
-                <div class="col-md-5">
-                  <img src="img/portfolio/3.jpg" alt="Третья работа">
+                <div class="col-md-4 foto" >
+                  <img src="img/portfolio/11.jpg" alt="Первая работа">
                 </div>
-                <div class="col-md-7">
-                  <h4>Сайт Путешественнка</h4>
-                  <p>Описание сайта</p>
-                  <a href="https://vk.me/footbickfifa" class="modal-btn">Заказать такой сайт</a>
+                <div class="col-md-4 foto_1">
+                  <img src="img/portfolio/11.jpg" alt="Первая работа">                  
                 </div>
+                <div class="col-md-4 foto_2">
+                  <img src="img/portfolio/11.jpg" alt="Первая работа">                  
+                </div>
+                </div>
+                <div class="center-block col-md-12">
+                <h3>Описание сайта : </h3>
+                <p>Простенький сайт для школы красоты "Beauty School"</p>
+                </div>
+                <div class="center-block col-md-12">
+                <a href="https://e.mail.ru/compose/?1516619631030" class="modal-btn">Заказать такой сайт</a>               
               </div>
             </div>
           </div>
         </div>
       </div>
 
+      <!-- Всплывающие окна 4-->
+      <div class="modal fade" id="work-4" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">Консольный клуб "Play Room"</h4>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-4 foto">
+                  <img src="img/portfolio/room.jpg" alt="Первая работа">
+                </div>
+                <div class="col-md-4">
+                  <img src="img/portfolio/viz_4.jpg" alt="Первая работа">                  
+                </div>
+                <div class="col-md-4">
+                  <img src="img/portfolio/flaer_3.jpg" alt="Первая работа">                  
+                </div>
+                </div>
+                <div class="center-block col-md-12">
+                <h3>Описание заказа : </h3>
+                <p>Очень лояльный клиент! Заказал изначально баннер, но в итоге понял что нужен ещё и логотип! После проделанной работы, клиент ещё не раз обращался с новыми заказами!</p>
+                </div>
+                <div class="center-block col-md-12">
+                <a href="https://e.mail.ru/compose/?1516619631030" class="modal-btn">Заказать Рекламу</a>               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+     <!-- Всплывающие окна 5-->
+      <div class="modal fade" id="work-5" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">Листовки для клуба "Адреналин"</h4>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-4 foto">
+                  <img src="img/portfolio/flaer.jpg" alt="Первая работа">
+                </div>
+                <div class="col-md-4 foto_1">
+                  <img src="img/portfolio/flaer.jpg" alt="Первая работа">                  
+                </div><div class="col-md-4 foto_1">
+                  <img src="img/portfolio/flaer.jpg" alt="Первая работа">                  
+                </div>
+                </div>
+                <div class="center-block col-md-12">
+                <h3>Описание заказа : </h3>
+                <p>Листовки были выполнены в далеком 2014 году для клуба "Адреналин"! Клиент был постоянным и практически каждую неделю в течении года заказывал такого плана листовки и другого вида рекламу!</p>
+                </div>
+                <div class="center-block col-md-12">
+                <a href="https://e.mail.ru/compose/?1516619631030" class="modal-btn">Заказать Листовки</a>               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Всплывающие окна 6 -->
+      <div class="modal fade" id="work-6" role="dialog">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">Визитки для ателье и парикмахерской</h4>
+            </div>
+            <div class="modal-body">
+              <div class="row">
+                <div class="col-md-12" >
+                  <img src="img/portfolio/viz_web_2.jpg" alt="Первая работа">
+                </div>                
+                </div>
+                <div class="center-block col-md-12">
+                <h3>Описание заказа : </h3>
+                <p>Заказ был выполнен для клиента, у которого были меховое отелье и парикмахерская. У кллиента вопросов не возникло, с первого раза утвердили макеты!</p>
+                </div>
+                <div class="center-block col-md-12">
+                <a href="https://e.mail.ru/compose/?1516619631030" class="modal-btn">Заказать Визитки</a>               
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <strong>Михаил Янев</strong>
+            <p>Web дизайн и разработка сайтов Полиграфический дизайн</p>
+          </div>
+          <div class="col-md-6">
+            <strong>Контакты</strong>
+            <!-- <div class="social-links">
+              <a href="https://vk.com"><i class="icon-vk"></i></a>
+              <a href="https://instagram.com"><i class="icon-instagram"></i></a>
+              <a href="https://twitter.com"><i class="icon-twitter"></i></a>
+            </div> -->
+            <p>Телефон: +37379771011</p>
+            <p>E-mail: miha_y69@mail.ru</p>
+          </div>
+          <div class="col-md-3"><strong>Свяжитесь со мной</strong>
+            <a href="tel:+37379771011" class="offer-btn">Позвонить</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/parallax.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/parallax.min.js"></script>    
+    
     <script>
       $(function() {
         var link = $('a[data-toggle="modal"]');
